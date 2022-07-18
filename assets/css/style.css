@@ -1,0 +1,49 @@
+body {
+    background-color: aliceblue;
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between ;
+    
+}
+
+
+#intro{
+    display: block;
+    text-align: center;
+    background-color: aquamarine;
+    margin: 180px auto;
+    width: 300px;
+    padding-top: 5px;
+   
+}
+
+.start-button {
+    font-size: 20px;
+    font-weight: bold;
+    display: inline;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px auto;
+    padding: 10px;
+    
+}
+ 
+.choices {
+    display: block;
+    margin: 10px;
+}
+
+#quizcontainer, #scorecontainer {
+    display: none;
+    
+}
+
+#timercontainer {
+    
+}
+
+
